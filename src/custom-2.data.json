@@ -1,0 +1,572 @@
+{
+  "header": [
+    {
+      "id": "project_name",
+      "type": "string",
+      "caption": "Project name"
+    },
+    {
+      "id": "total_by_project",
+      "type": "float",
+      "caption": "Total by project",
+      "align": "center"
+    },
+    {
+      "id": "project_type",
+      "type": "string",
+      "caption": "Project type"
+    },
+    {
+      "id": "jan",
+      "type": "float",
+      "caption": "Jan"
+    },
+    {
+      "id": "feb",
+      "type": "float",
+      "caption": "Feb"
+    },
+    {
+      "id": "mar",
+      "type": "float",
+      "caption": "Mar",
+      "align": "left"
+    },
+    {
+      "id": "apr",
+      "type": "float",
+      "caption": "Apr",
+      "align": "center"
+    },
+    {
+      "id": "may",
+      "type": "float",
+      "caption": "May"
+    },
+    {
+      "id": "jun",
+      "type": "string",
+      "caption": "Jun"
+    },
+    {
+      "id": "jul",
+      "type": "boolean",
+      "caption": "Jul",
+      "align": "right"
+    },
+    {
+      "id": "aug",
+      "type": "float",
+      "caption": "Aug"
+    },
+    {
+      "id": "sep",
+      "type": "int",
+      "caption": "Sep"
+    },
+    {
+      "id": "oct",
+      "type": "boolean",
+      "caption": "Oct"
+    },
+    {
+      "id": "jun",
+      "type": "string",
+      "caption": "Jun"
+    },
+    {
+      "id": "jul",
+      "type": "boolean",
+      "caption": "Jul",
+      "align": "right"
+    },
+    {
+      "id": "aug",
+      "type": "float",
+      "caption": "Aug"
+    },
+    {
+      "id": "sep",
+      "type": "int",
+      "caption": "Sep"
+    },
+    {
+      "id": "oct",
+      "type": "boolean",
+      "caption": "Oct"
+    }
+  ],
+  "data": [
+    [
+      "Mimesis",
+      1024.3,
+      "commercial",
+      2048.2,
+      4096,
+      4096,
+      "commercial",
+      2048.2,
+      "commercial",
+      false,
+      "commercial",
+      2048.2,
+      true,
+      "commercial",
+      false,
+      "commercial",
+      2048.2,
+      true
+    ],
+    [
+      "Mako",
+      2345.1,
+      "internal",
+      3465.3,
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      4096,
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      }
+    ],
+    [
+      "Edelweiss",
+      54.4,
+      "commercial",
+      564.8,
+      4652.3,
+      4096,
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      }
+    ],
+    [
+      "Edelweiss",
+      54.4,
+      "commercial",
+      564.8,
+      4652.3,
+      4096,
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      }
+    ],
+    [
+      "Edelweiss",
+      54.4,
+      "commercial",
+      564.8,
+      4652.3,
+      4096,
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      }
+    ],
+    [
+      "Edelweiss",
+      54.4,
+      "commercial",
+      564.8,
+      4652.3,
+      4096,
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      }
+    ],
+    [
+      "Edelweiss",
+      54.4,
+      "commercial",
+      564.8,
+      4652.3,
+      4096,
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      }
+    ],
+    [
+      "Edelweiss",
+      54.4,
+      "commercial",
+      564.8,
+      4652.3,
+      4096,
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      }
+    ],
+    [
+      "Edelweiss",
+      54.4,
+      "commercial",
+      564.8,
+      4652.3,
+      4096,
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": false,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": 12.5,
+        "color": "selected"
+      },
+      {
+        "d": true,
+        "color": "selected"
+      }
+    ]
+  ]
+}
