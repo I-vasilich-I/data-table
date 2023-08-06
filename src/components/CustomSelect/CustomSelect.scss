@@ -1,0 +1,129 @@
+.select__native,
+.select__custom {
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  min-width: 65px;
+  color: white;
+}
+
+.select__native {
+  min-height: 2rem;
+}
+
+.select__custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.select__native,
+.select__custom-trigger {
+  background: #15aa04;
+  border: 1px solid grey;
+  border-radius: 0.4rem;
+
+  font-size: 1rem;
+  color: white;
+}
+
+.select__native {
+  appearance: none;
+  background-image: url("../../assets/arrow_down.svg");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 0.2rem;
+  padding: 0rem 0.5rem;
+
+  font-size: 1rem;
+  color: white;
+}
+
+@media (hover: hover) {
+  .select__custom {
+    display: block;
+  }
+
+  .select__native:focus + .select__custom {
+    display: none;
+  }
+}
+
+.select__custom-trigger {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    border-color: #15aa04;
+  }
+}
+
+.select__native:focus,
+.select__custom.is-active .select__custom-trigger {
+  outline: none;
+  box-shadow: #15aa04 0 0 2px 0.2rem;
+}
+
+.select {
+  position: relative;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select__label {
+  width: 100%;
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  color: black;
+}
+
+.select__wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.select__custom-trigger::after {
+  content: "▾";
+  position: absolute;
+  top: 0;
+  line-height: 2rem;
+  right: 0.5rem;
+}
+
+.select__custom-options {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 0.4rem;
+  background-color: #15aa04;
+  box-shadow: 0 0 2px #e9e1f8;
+  z-index: 2;
+  padding: 0.5rem 0;
+  display: none;
+
+  font-size: 1rem;
+  color: white;
+}
+
+.select__custom.is-active .select__custom-options {
+  display: block;
+}
+
+.select__custom-option {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.select__custom-option:hover {
+  background-color: #02955f;
+  color: white;
+  cursor: pointer;
+}
