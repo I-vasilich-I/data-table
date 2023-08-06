@@ -1,0 +1,19 @@
+services: 
+  node_client:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: data-table
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    restart: unless-stopped
+    networks:
+      - shared_network
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules
+
+networks:
+  shared_network:

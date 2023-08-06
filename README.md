@@ -25,3 +25,9 @@ npm install
   ```bash
   npm run start
   ```
+
+### Running project with Docker
+
+  ```bash
+  npm run docker
+  ```
